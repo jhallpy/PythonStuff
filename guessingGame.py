@@ -19,7 +19,7 @@ while check:
             print("You were off by " + str(abs(guess-rand)))
 
         cont = str.lower(input("Would you like to play again?(y/n) "))
-        if(cont!="y"):
+        if(cont!="y" or cont!='yes'):
             check = False
             print("Thank you for playing! Your score was: " + str(score))
             
