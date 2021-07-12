@@ -1,4 +1,5 @@
 # PythonStuff
 This repo will include little projects that I'm working on in order to learn Python better. In the future I will add new repos for larger projects that I have planned.
-Any library needed in order to run these programs will be included in a requirements file that will be added once it's needed.
 
+# Using these programs.
+I have added a requirements.txt file. You can add the required libraries by using `pip install -r requirements.txt`. This should allow you to run any program in this repo.
