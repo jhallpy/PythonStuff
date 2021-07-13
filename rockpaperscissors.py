@@ -29,7 +29,7 @@ while check:
         continue
 
     cont = str.lower(input('Would you like to play again?(y/n) '))
-    if(cont!="y" or cont!='yes'):
+    if (cont != "y" and cont!='yes'):
             check = False
             print("Thank you for playing! Your score was: " + str(score))
         
